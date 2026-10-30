@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sactown Tacos | Street Tacos & Catering in Sacramento</title>
+  <meta name="description" content="Sactown Tacos is a family-run taco truck serving al pastor, carne asada and birria across Sacramento. Find the truck today or book us for your next event." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: {
+      fontFamily: { sans: ['Inter','system-ui','sans-serif'], display: ['Fraunces','serif'] },
+      colors: { chile: '#C8102E', masa: '#FFF4E0', lime: '#7BB662', night: '#1B1B1F' }
+    } } }
+  </script>
+</head>
+<body class="font-sans text-night bg-masa antialiased">
+
+  <header class="sticky top-0 z-50 bg-masa/90 backdrop-blur border-b border-night/10">
+    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href="#" class="font-display font-black text-2xl tracking-tight">Sactown <span class="text-chile">Tacos</span></a>
+      <nav class="hidden md:flex gap-8 text-sm font-semibold">
+        <a href="#menu" class="hover:text-chile">Menu</a>
+        <a href="#find" class="hover:text-chile">Find the Truck</a>
+        <a href="#catering" class="hover:text-chile">Catering</a>
+        <a href="#about" class="hover:text-chile">Our Story</a>
+      </nav>
+      <a href="#catering" class="bg-chile text-white text-sm font-bold px-4 py-2 rounded-full hover:bg-red-700 transition">Book Catering</a>
+    </div>
+  </header>
+
+  <section class="relative overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=1800&q=80" alt="Fresh tacos with lime" class="absolute inset-0 w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-gradient-to-t from-night via-night/60 to-night/20"></div>
+    <div class="relative max-w-6xl mx-auto px-4 pt-32 pb-24 md:pt-48 md:pb-36 text-white">
+      <p class="inline-block bg-lime text-night text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Today: Midtown · 11am–8pm</p>
+      <h1 class="font-display font-black text-5xl md:text-7xl leading-[0.95] mt-5 max-w-3xl">Real street tacos.<br/>Made in Sacramento.</h1>
+      <p class="mt-6 text-lg md:text-xl text-white/85 max-w-xl">Al pastor off the trompo, slow-braised birria, handmade tortillas. Find the truck or bring us to your party.</p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-3">
+        <a href="#find" class="bg-chile hover:bg-red-700 text-white font-bold px-7 py-3.5 rounded-full text-center transition">Where's the truck?</a>
+        <a href="#menu" class="bg-white/10 hover:bg-white/20 border border-white/40 font-bold px-7 py-3.5 rounded-full text-center transition">See the menu</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-chile text-white">
+    <div class="max-w-6xl mx-auto px-4 py-5 grid grid-cols-2 md:grid-cols-4 gap-3 text-center text-sm font-semibold">
+      <div>4.9★ · 600+ Google reviews</div><div>Family owned since 2016</div><div>Handmade tortillas daily</div><div>Catering 20–500 guests</div>
+    </div>
+  </section>
+
+  <section id="menu" class="max-w-6xl mx-auto px-4 py-20">
+    <div class="text-center max-w-2xl mx-auto">
+      <h2 class="font-display font-black text-4xl md:text-5xl">The Menu</h2>
+      <p class="mt-4 text-night/70">Everything is $4 a taco, $12 for three with rice and beans. Cash, card, Apple Pay.</p>
+    </div>
+    <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="bg-white rounded-3xl p-6 shadow-sm"><div class="flex justify-between items-baseline"><h3 class="font-display font-bold text-xl">Al Pastor</h3><span class="font-bold text-chile">$4</span></div><p class="mt-2 text-sm text-night/70">Marinated pork shaved off the spit, pineapple, onion, cilantro, salsa verde.</p></div>
+      <div class="bg-white rounded-3xl p-6 shadow-sm"><div class="flex justify-between items-baseline"><h3 class="font-display font-bold text-xl">Carne Asada</h3><span class="font-bold text-chile">$4</span></div><p class="mt-2 text-sm text-night/70">Mesquite-grilled steak, guacamole salsa, onion, cilantro.</p></div>
+      <div class="bg-white rounded-3xl p-6 shadow-sm ring-2 ring-lime"><div class="flex justify-between items-baseline"><h3 class="font-display font-bold text-xl">Birria Quesataco</h3><span class="font-bold text-chile">$5</span></div><p class="mt-2 text-sm text-night/70">Slow-braised beef, melted Oaxaca cheese, griddled crisp, side of consomé. <span class="text-lime font-semibold">Most popular.</span></p></div>
+      <div class="bg-white rounded-3xl p-6 shadow-sm"><div class="flex justify-between items-baseline"><h3 class="font-display font-bold text-xl">Pollo Asado</h3><span class="font-bold text-chile">$4</span></div><p class="mt-2 text-sm text-night/70">Citrus-achiote chicken, pickled red onion, crema.</p></div>
+      <div class="bg-white rounded-3xl p-6 shadow-sm"><div class="flex justify-between items-baseline"><h3 class="font-display font-bold text-xl">Hongos (V)</h3><span class="font-bold text-chile">$4</span></div><p class="mt-2 text-sm text-night/70">Garlic-chile mushrooms, roasted poblano, cashew crema. Vegan.</p></div>
+      <div class="bg-white rounded-3xl p-6 shadow-sm"><div class="flex justify-between items-baseline"><h3 class="font-display font-bold text-xl">Agua Frescas</h3><span class="font-bold text-chile">$3</span></div><p class="mt-2 text-sm text-night/70">Horchata, jamaica, or whatever fruit is good this week.</p></div>
+    </div>
+  </section>
+
+  <section id="find" class="bg-night text-white">
+    <div class="max-w-6xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="font-display font-black text-4xl md:text-5xl">Find the truck</h2>
+        <p class="mt-4 text-white/70">We move around. Here's the week. Follow <a href="#" class="text-lime font-semibold">@sactowntacos</a> for same-day changes.</p>
+        <ul class="mt-8 divide-y divide-white/10">
+          <li class="py-3 flex justify-between"><span class="font-semibold">Mon</span><span class="text-white/80">Closed</span></li>
+          <li class="py-3 flex justify-between"><span class="font-semibold">Tue–Wed</span><span class="text-white/80">Midtown · 20th & J · 11am–8pm</span></li>
+          <li class="py-3 flex justify-between"><span class="font-semibold">Thu</span><span class="text-white/80">Natomas · Truxel Rd · 11am–8pm</span></li>
+          <li class="py-3 flex justify-between"><span class="font-semibold">Fri</span><span class="text-white/80">East Sac · Folsom Blvd · 11am–9pm</span></li>
+          <li class="py-3 flex justify-between"><span class="font-semibold">Sat–Sun</span><span class="text-white/80">Elk Grove · Laguna Blvd · 11am–9pm</span></li>
+        </ul>
+      </div>
+      <div class="rounded-3xl overflow-hidden aspect-[4/3]">
+        <img src="https://images.unsplash.com/photo-1612208176815-e132bcf971b0?w=1200&q=80" alt="Customers at the taco truck" class="w-full h-full object-cover" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <section id="catering" class="max-w-6xl mx-auto px-4 py-20">
+    <div class="grid md:grid-cols-2 gap-12 items-start">
+      <div>
+        <h2 class="font-display font-black text-4xl md:text-5xl">Bring the truck to you</h2>
+        <p class="mt-4 text-night/70">Weddings, office lunches, birthdays, quinceañeras. We show up, cook on site, and clean up. Packages from $18/person, 20-guest minimum.</p>
+        <ul class="mt-6 space-y-2 text-night/80">
+          <li>✓ Taco bar with 3 meats + vegan option</li>
+          <li>✓ Rice, beans, chips, salsas, agua fresca</li>
+          <li>✓ Serving staff included</li>
+          <li>✓ Booked out 2–3 weeks — ask early</li>
+        </ul>
+      </div>
+      <form action="https://api.web3forms.com/submit" method="POST" class="bg-white rounded-3xl p-6 shadow-sm space-y-4">
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY" />
+        <input type="hidden" name="subject" value="Catering request — Sactown Tacos" />
+        <h3 class="font-display font-bold text-xl">Get a catering quote</h3>
+        <div class="grid grid-cols-2 gap-3">
+          <input name="name" placeholder="Name" required class="rounded-xl border border-night/15 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-chile" />
+          <input name="phone" placeholder="Phone" type="tel" required class="rounded-xl border border-night/15 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-chile" />
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <input name="date" type="date" class="rounded-xl border border-night/15 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-chile" />
+          <input name="guests" placeholder="# of guests" type="number" class="rounded-xl border border-night/15 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-chile" />
+        </div>
+        <textarea name="message" rows="3" placeholder="Tell us about the event" class="w-full rounded-xl border border-night/15 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-chile"></textarea>
+        <button class="w-full bg-chile hover:bg-red-700 text-white font-bold py-3 rounded-full transition">Request a quote</button>
+        <p class="text-xs text-night/50 text-center">We reply within 24 hours, usually faster.</p>
+      </form>
+    </div>
+  </section>
+
+  <section id="about" class="bg-white">
+    <div class="max-w-3xl mx-auto px-4 py-20 text-center">
+      <h2 class="font-display font-black text-4xl md:text-5xl">Our story</h2>
+      <p class="mt-6 text-night/75 leading-relaxed">Sactown Tacos started as a weekend cart outside a Franklin Blvd tire shop in 2016. Rosa's recipes, Luis's trompo, and a line that kept getting longer. Nine years later we're still a family truck — same salsas, same tortillas pressed every morning, a lot more Sacramento in the line.</p>
+      <div class="mt-10 grid sm:grid-cols-3 gap-4 text-left">
+        <blockquote class="bg-masa rounded-2xl p-5"><div class="text-amber-500">★★★★★</div><p class="mt-2 text-sm">"The birria is unreal. We drove from Roseville for it and would do it again."</p><footer class="mt-3 text-xs font-semibold">— Jessica M.</footer></blockquote>
+        <blockquote class="bg-masa rounded-2xl p-5"><div class="text-amber-500">★★★★★</div><p class="mt-2 text-sm">"Catered our office party for 60. On time, friendly, everyone still talks about it."</p><footer class="mt-3 text-xs font-semibold">— Daniel R.</footer></blockquote>
+        <blockquote class="bg-masa rounded-2xl p-5"><div class="text-amber-500">★★★★★</div><p class="mt-2 text-sm">"Best al pastor in Sac. Not close."</p><footer class="mt-3 text-xs font-semibold">— Marcus T.</footer></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-night text-white/60 text-sm">
+    <div class="max-w-6xl mx-auto px-4 py-8 flex flex-col md:flex-row justify-between gap-2">
+      <span>© <span id="year"></span> Sactown Tacos · Sacramento, CA</span>
+      <span><a href="tel:+19165550142" class="hover:text-white">(916) 555-0142</a> · hola@sactowntacos.com</span>
+    </div>
+  </footer>
+
+  <a href="#find" class="md:hidden fixed bottom-4 left-4 right-4 bg-chile text-white text-center font-bold py-3 rounded-full shadow-lg z-50">Find the truck today</a>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
